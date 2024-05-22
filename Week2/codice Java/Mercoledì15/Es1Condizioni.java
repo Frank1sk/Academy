@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Es1Condizioni {
     public static void main(String[] args) {
         
