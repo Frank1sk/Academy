@@ -17,24 +17,36 @@ public class Main {
             scelta = scannerN.nextInt();
             switch (scelta) {
                 case 1:
+                    System.out.println("-----");
                     mCfactory.aggiungiPannaCotta(scannerS, scannerN);
+                    System.out.println("-----");
                     break;
                 case 2:
+                    System.out.println("-----");
                     mCfactory.stampaListaPanneCotte();
+                    System.out.println("-----");
                     break;
                 case 3:
+                    System.out.println("-----");
                     mCfactory.ricercaPannacotta(scannerS);
+                    System.out.println("-----");
                     break;
                 case 4:
+                    System.out.println("*****");
                     System.out.println("Arrivederci!");
+                    System.out.println("*****");
                     continua = false;
                     break;
                 case 5:
+                    System.out.println("*****");
                     mCfactory.famiglia();
+                    System.out.println("*****");
                     continua = false;
                     break;
                 default:
+                    System.out.println("*****");
                     System.out.println("Hai inserito una scelta sbagliata!");
+                    System.out.println("*****");
                     break;
             }
         }
