@@ -43,13 +43,11 @@ public class PannaCotta {
     }
     
     //Metodo che aggiunge un ingrediente all'AL degli ingredienti del singolo oggetto Pannacotta
-    public void aggiungiIngrediente(){
-        Scanner scannerAgg = new Scanner(System.in);
+    public void aggiungiIngrediente(Scanner scannerStringhe){
         System.out.println("Inserisci l'ingrediente");
-        String ingredienteDaAggiungere = scannerAgg.nextLine();
+        String ingredienteDaAggiungere = scannerStringhe.nextLine();
         ingredienti.add(ingredienteDaAggiungere);
         System.out.println("Ingrediente aggiunto");
-        scannerAgg.close();
     }
 
     //Metodo che stampa l'AL degli ingredienti del singolo oggetto Pannacotta
