@@ -1,6 +1,7 @@
+package Condizioni;
 import java.util.Scanner;
 
-public class Es1Condizioni {
+public class VerificaEta {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);

@@ -1,3 +1,4 @@
+package ProvaInput;
 /* Lo Scanner è una classe che gestisce la possibilità di permette all'utente di inserire un input */
 import java.util.Scanner;
 

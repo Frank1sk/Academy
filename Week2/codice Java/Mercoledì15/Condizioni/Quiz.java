@@ -1,6 +1,7 @@
+package Condizioni;
 import java.util.Scanner;
 
-public class Es2Condizioni {
+public class Quiz {
     public static void main(String[] args) {
 
         Scanner scannerS = new Scanner(System.in);
