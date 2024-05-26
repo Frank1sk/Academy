@@ -1,5 +1,7 @@
 package Mecoledì22.Ereditarietà;
 
+import java.util.Scanner;
+
 public class PannaCottaCioccolato extends PannaCotta {
 
     private double percentualeCioccolato;
@@ -8,7 +10,6 @@ public class PannaCottaCioccolato extends PannaCotta {
             double percentualeCioccolato) {
         super(nome, prezzo);
         this.percentualeCioccolato = percentualeCioccolato;
-        getIngredienti().add("Cioccolato " + percentualeCioccolato + "%");
     }
 
     public double getPercentualeCioccolato() {
@@ -17,6 +18,11 @@ public class PannaCottaCioccolato extends PannaCotta {
 
     public void setPercentualeCioccolato(double percentualeCioccolato) {
         this.percentualeCioccolato = percentualeCioccolato;
+    }
+
+    public void aggiungiIngrediente(Scanner scannerStringhe, double percentualeCioccolato){
+        getIngredienti().add(percentualeCioccolato + "% di Cioccolato");
+        super.aggiungiIngrediente(scannerStringhe);
     }
 
 }

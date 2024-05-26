@@ -41,7 +41,6 @@ public class Main {
                     System.out.println("*****");
                     mCfactory.famiglia();
                     System.out.println("*****");
-                    continua = false;
                     break;
                 default:
                     System.out.println("*****");

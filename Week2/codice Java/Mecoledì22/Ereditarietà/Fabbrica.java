@@ -62,7 +62,7 @@ public class Fabbrica {
                     aggiungi = scannerStringhe.nextLine();
                 }
                 if(aggiungi.toLowerCase().equals("si")){
-                    v2.aggiungiIngrediente(scannerStringhe);
+                    v2.aggiungiIngrediente(scannerStringhe, frutta); //v2.aggiungiIngrediente(scannerStringhe);
                 }else{
                     altro = false;
                 }
@@ -91,7 +91,7 @@ public class Fabbrica {
                     aggiungi = scannerStringhe.nextLine();
                 }
                 if(aggiungi.toLowerCase().equals("si")){
-                    v3.aggiungiIngrediente(scannerStringhe);
+                    v3.aggiungiIngrediente(scannerStringhe, prcCioccolato); //v3.aggiungiIngrediente(scannerStringhe);
                 }else{
                     altro = false;
                 }
