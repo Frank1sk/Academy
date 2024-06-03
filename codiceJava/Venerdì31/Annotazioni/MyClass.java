@@ -1,3 +1,5 @@
+package codiceJava.Venerdì31.Annotazioni;
+
 public class MyClass {
     
     String name;
